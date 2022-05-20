@@ -153,12 +153,14 @@ STATICFILES_DIRS =[
     os.path.join(BASE_DIR, 'patient/static/')
 ]
 
+#for local use
 #STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
 
+#for deployment
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
-#MEDIA_URL = '/media/'
-#MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 # STATIC_URL = '/static/'
 # STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]

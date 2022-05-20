@@ -38,8 +38,6 @@ djangorestframework-jwt==1.11.0
 entrypoints==0.3
 feedparser==6.0.2
 filelock==3.0.12
-Flask==1.1.2
-Flask-MySQLdb==0.2.0
 gast==0.3.3
 google-api-python-client==1.4.1
 google-auth==1.18.0
