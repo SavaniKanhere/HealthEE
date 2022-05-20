@@ -46,6 +46,7 @@ google-auth-oauthlib==0.4.1
 google-pasta==0.2.0
 graphviz==0.16
 grpcio==1.30.0
+gunicorn==20.1.0
 h2==3.2.0
 h5py==2.10.0
 hpack==3.0.0
@@ -168,7 +169,6 @@ Twisted==21.2.0
 uritemplate==3.0.1
 urllib3==1.25.9
 w3lib==1.22.0
-waitress==2.1.1
 wcwidth==0.1.9
 WeasyPrint==52.4
 webencodings==0.5.1

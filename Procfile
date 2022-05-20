@@ -1,1 +1,1 @@
-web: waitress-serve --port=$PORT Disease.wsgi:application
+web: gunicorn Disease.wsgi --log-file -
