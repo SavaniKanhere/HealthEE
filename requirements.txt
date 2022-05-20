@@ -59,8 +59,6 @@ incremental==21.3.0
 inflection==0.5.0
 ipdb==0.13.7
 ipykernel==5.3.0
-ipython==7.17.0
-ipython-genutils==0.2.0
 isort==5.6.4
 itemadapter==0.2.0
 itemloaders==1.0.4
