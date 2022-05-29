@@ -1,7 +1,7 @@
 from django.http import HttpResponse
 from django.shortcuts import redirect
 from django.contrib import auth 
-
+#
 def unauthenticated_doctor(view_func):
     def wrapper_fun(request,*args,**kwargs):
         if request.user.is_authenticated:

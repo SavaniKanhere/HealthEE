@@ -2,7 +2,7 @@ from django.db import models
 from django.core.validators import MinLengthValidator, RegexValidator
 from django.contrib.auth.models import User
 
-
+#
 # Create your models here.
 class DoctorInfo(models.Model):
     user=models.OneToOneField(User,on_delete=models.CASCADE)    

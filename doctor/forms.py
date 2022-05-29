@@ -3,7 +3,7 @@ from doctor.models import DoctorInfo
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.models import User
 from django.forms.widgets import DateInput
-
+#
 class DoctorForm(forms.ModelForm):
     class Meta:
         model=DoctorInfo
